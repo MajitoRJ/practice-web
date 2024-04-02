@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(121, 4, 4);
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    overflow: hidden;
+    list-style: none;
+
+}
+
+@media screen and (width < 450px ){
+   .contenedor {
+    width: 100%; 
+    margin: 0;
+   }
+  
+}
+
+
+.header {
+    padding: 0;
+    width: 100%;
+    margin: 0px auto;
+    background: rgb(255, 225, 230);
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    color: #fff;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: #410101;
+    padding: 10px;
+    display: block;
+}
+
+li {
+    list-style: none;
+}
+
+.list-p {
+    padding: 0;
+}
+
+.list-p:hover {
+    color: palevioletred;
+}
+
+/* menu */
+/* .header  nav ul li a {
+color: #410101;
+text-decoration: none;
+padding: 10px;
+display: block;
+
+} */
+
+.header nav ul li {
+    display: inline-block;
+    text-align: center;
+
+}
+
+.header nav ul li:hover  {
+    background: linear-gradient(rgb(207, 123, 130),rgb(248, 195, 220));
+    
+
+}
+
+.main .imagen img {
+    width: 100%;
+}
+
+
+/* parrafo del articulo */
+.main {
+    background: rgb(255, 225, 230);
+    width: 80%;
+    float: left;
+}
+
+.main .posts {
+    padding: 10px;
+}
+
+aside  {
+    width: 20%;
+    background: rgb(255, 225, 230);
+    color: #460303;  
+    padding: 19px;
+    float:  right;
+}
+
+hr{
+    border: 1px solid rgb(226, 66, 93);
+}
+
+.titulo {
+    margin-top: 20px;
+    /* border: solid 1px black; */
+}
+
+.border-titulo{
+   border-bottom: solid 1px rgb(243, 132, 151);
+}
+
+footer {
+    margin: 0;
+    width: 80%;
+    clear: both;
+    padding: 5px;
+    background: #fff;
+    text-align: center;
+}
+footer p {
+    color: rgb(0, 0, 0);
+}
+
+
+@media screen and (width < 764px){
+    aside {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .main {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+    
+}
+
+
+
